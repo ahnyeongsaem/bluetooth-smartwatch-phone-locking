@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="setting_activity_account"
+        android:title="기기권한 이용">
+        <Preference
+            android:key="Reen_device_policy"
+            android:title="기기권한 사용"
+            android:summary="단말기 사용권한 설정"
+            android:selectable="true" />
+        <Preference
+            android:key="Disable_device_policy"
+            android:title="기기권한 해제"
+            android:summary="단말기 사용권한 해제"
+            android:selectable="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="setting_activity_account"
+        android:title="서비스 이용">
+        <Preference
+            android:key="Reen_service"
+            android:title="서비스 시작"
+            android:summary="서비스를 사용"
+            android:selectable="true" />
+        <Preference
+            android:key="Disable_service"
+            android:title="서비스 중지"
+            android:summary="서비스를 중단"
+            android:selectable="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="setting_activity_account"
+        android:title="DPM 기능">
+        <Preference
+            android:key="Request_LockNow"
+            android:title="LockNow"
+            android:summary="LockNow 함수를 호출합니다."
+            android:selectable="true" />
+        <Preference
+            android:key="Request_PasswordScreen"
+            android:title="비밀번호 설정화면"
+            android:summary="비밀번호 설정화면을 호출합니다."
+            android:selectable="true" />
+        <Preference
+            android:key="Request_isPass"
+            android:title="잠금상태 확인"
+            android:summary="현재 잠금상태를 확인합니다."
+            android:selectable="true" />
+        <Preference
+            android:key="Request_ImageSelect"
+            android:title="잠금 이미지 선택"
+            android:summary="잠금화면 이미지를 선택합니다."
+            android:selectable="true" />
+        <Preference
+            android:key="Request_ImsiPassword"
+            android:title="임시비밀번호 설정"
+            android:summary="임시비밀번호를 설정합니다."
+            android:selectable="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="setting_activity_account"
+        android:title="개발자 정보">
+        <Preference
+            android:key="Make_dev0"
+            android:title="DIRECTOR"
+            android:summary="이상훈"
+            android:selectable="false" />
+        <Preference
+            android:key="Make_dev1"
+            android:title="MAIN PROGRAMMER"
+            android:summary="안영샘(Inha Univ) ahnsaem90@gmail.com"
+            android:selectable="false" />
+        <Preference
+            android:key="Make_dev2"
+            android:title="SUB PROGRAMMER1"
+            android:summary="한아름(Sookmyung W.Univ) hanor1541@nate.com"
+            android:selectable="false" />
+        <Preference
+            android:key="Make_dev3"
+            android:title="SUB PROGRAMMER2"
+            android:summary="이재범(Dongseoul Univ) btv9200@gmail.com"
+            android:selectable="false" />
+        <Preference
+            android:key="Make_dev4"
+            android:title="SUB PROGRAMMER3"
+            android:summary="한하얀(Inha Univ) gksgkdis000@naver.com"
+            android:selectable="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
